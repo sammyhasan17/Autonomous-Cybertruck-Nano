@@ -23,7 +23,7 @@ print('done')
 #     if cv2.waitKey(1) & 0xFF == ord('q'):
 #         break
 
-# cam.close()
+# cam.close()t
 # cv2.destroyAllWindows()
 
 
