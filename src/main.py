@@ -1,10 +1,10 @@
 
-from picamera2 import Picamera2 # pip install picamera2
+from picamera2 import Picamera2, Preview
 
 from time import sleep
 
 cam = Picamera2()
-cam.start_preview()
+cam.start_preview(Preview.QT) #computationally heavy to preview!
 
 cam.start()
 
