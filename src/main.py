@@ -1,30 +1,16 @@
-# we need to see (interface with Camera this code should probably be written in C++?
-# sudo apt update
-# sudo apt install -y python3-picamera2 python3-libcamera python3-kms++ python3-prctl libcap-dev
-
-# pip install opencv-python
 
 from picamera2 import Picamera2 # pip install picamera2
-import cv2
 
-# initialize camera
-# cam = Picamera2()
-# cam.configure(cam.create_preview_configuration())
-# cam.start()clear
-print('done')
-# while True:
-#     # capture current frame
-#     frame = cam.capture_array()
+from time import sleep
 
-#     # show in a window
-#     cv2.imshow("Pi Camera", frame)
+cam = Picamera2()
+cam.start_preview()
 
-#     # press 'q' to quit
-#     if cv2.waitKey(1) & 0xFF == ord('q'):
-#         break
+cam.start()
 
-# cam.close()t
-# cv2.destroyAllWindows()
+sleep(5)
 
+cam.capture_file("test-1-image.jpg")
+print("Image saved !!")
 
-
+cam.stop()
