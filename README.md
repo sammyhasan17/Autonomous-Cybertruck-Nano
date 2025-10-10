@@ -1,6 +1,3 @@
-Here it is formatted as a clean Markdown README section:
-
-```markdown
 # CyberTruck Project
 
 Small-scale, vision-enabled RC Cybertruck prototype integrating physical design, 3D printing, ML perception, and control.
@@ -58,7 +55,5 @@ Make virtualenv see system camera libs:
 ```
 
 echo "/usr/lib/python3/dist-packages" > .venv/lib/python3.11/site-packages/system.pth
-
-```
 
 ```
