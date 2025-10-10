@@ -57,3 +57,6 @@ Make virtualenv see system camera libs:
 echo "/usr/lib/python3/dist-packages" > .venv/lib/python3.11/site-packages/system.pth
 
 ```
+
+additional reference: 
+https://datasheets.raspberrypi.com/camera/picamera2-manual.pdf
