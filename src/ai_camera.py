@@ -13,6 +13,10 @@ class IMX500Detector:
         self.last_detections = []
         self.last_results = None
         
+
+# Previous model that needs to be imported:
+#  /usr/share/imx500-models/imx500_network_yolov8n_pp.rpk
+
         # Initialize IMX500
         self.imx500 = IMX500(model_path)
         self.intrinsics = self.imx500.network_intrinsics
