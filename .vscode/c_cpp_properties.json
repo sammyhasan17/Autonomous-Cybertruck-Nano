@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include/python3.11",
+                "/home/sam/Desktop/Autonomous-Cybertruck-Nano/.venv/lib/python3.11/site-packages/pybind11/include",
+                "/home/sam/Desktop/Autonomous-Cybertruck-Nano/.venv/lib/python3.11/site-packages/pybind11/include/pybind11/"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-arm64"
+        }
+    ],
+    "version": 4
+}
