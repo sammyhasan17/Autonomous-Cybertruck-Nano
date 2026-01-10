@@ -4,6 +4,7 @@ import subprocess
 ROOT = Path(__file__).resolve().parents[1]   # go from /src to project root
 EXE = ROOT / "bin" / "adder"
 
+
 res = subprocess.run([str(EXE), "2", "3"], capture_output=True, text=True)
 
 print("returncode:", res.returncode)
