@@ -19,6 +19,4 @@ cam.stop()
 # I need a continous stream using the picamera library
 
 
-from ai_cameara import IMX500Detector
-detector = IMX500Detector()
-detector.start()
+
