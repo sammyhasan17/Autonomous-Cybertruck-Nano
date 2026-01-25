@@ -6,6 +6,8 @@ camera = IMX500Detector()
 # Start the detector with preview window
 camera.start(show_preview=True)
 
+
+
 # Main loop
 while True:
     # Get the latest detections

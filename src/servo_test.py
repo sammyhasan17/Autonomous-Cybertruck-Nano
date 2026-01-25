@@ -13,13 +13,13 @@ DURATION = 15  # seconds
 try:
     while time() - start_time < DURATION:
         servo.angle = 0
-        sleep(2)
+        sleep(1)
 
-        servo.angle = 90
-        sleep(2)
+        servo.angle = 30 # verify voltage
+        sleep(1)
 
-        servo.angle = -90
-        sleep(2)
+        servo.angle = 0
+        sleep(1)
 
 finally:
     servo.angle = None   # stop sending pulses
