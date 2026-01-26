@@ -20,4 +20,5 @@ picam2.stop_recording()
 picam2.stop_preview()
 
 picam2.stop()
+# end program
 
